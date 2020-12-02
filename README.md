@@ -1,2 +1,2 @@
 # start-typescript
-### node + typesctipt + eslint + prettier + babel 模板
+### node + typesctipt + eslint + prettier + jest +babel 模板
