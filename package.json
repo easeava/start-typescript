@@ -49,8 +49,7 @@
 	},
 	"lint-staged": {
 		"*.ts": [
-			"yarn lint:fix",
-			"git add"
+			"yarn lint:fix"
 		],
 		"*.{js,json}": [
 			"yarn format",
