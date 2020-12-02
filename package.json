@@ -52,6 +52,7 @@
 			"yarn lint:fix"
 		],
 		"*.{js,json}": [
+			"yarn format"
 		],
 		"*": [
 			"git add"
