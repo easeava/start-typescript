@@ -6,7 +6,7 @@
 	"scripts": {
 		"build": "babel src --extensions '.js,.ts' --out-dir dist --copy-files --no-copy-ignored",
 		"start": "yarn build && node dist/server.js",
-		"dev": "ts-node-dev -r tsconfig-paths/register --respawn --ignore-watch node_modules src/server.ts",
+		"dev": "ts-node-dev -r tsconfig-paths/register --files --respawn --ignore-watch node_modules src/server.ts",
 		"lint": "eslint . --ext .ts",
 		"lint:fix": "yarn lint --fix",
 		"format": "prettier --write --loglevel silent './**/*.{json,js}'",
