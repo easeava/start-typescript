@@ -53,8 +53,7 @@
 			"git add"
 		],
 		"*.[js,json]": [
-			"yarn format",
-			"git add"
+			"yarn format"
 		]
 	}
 }
