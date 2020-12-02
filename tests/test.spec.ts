@@ -1,12 +1,12 @@
 class User {
-  name!: string;
-  email!: string;
+	name!: string;
+	email!: string;
 }
 
-test('shoud be ok', () => {
-	const user = new User()
+test("shoud be ok", () => {
+	const user = new User();
 
-	user.name = 'Ease'
+	user.name = "Ease";
 
-	expect(user.name).toEqual('Ease')
-})
+	expect(user.name).toEqual("Ease");
+});

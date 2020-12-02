@@ -1,9 +1,9 @@
-import net from 'net'
+import net from "net";
 
-net.createServer().listen(3000)
+net.createServer().listen(3000);
 
 const a = () => {
-	console.log(123)
-}
+	console.log(123);
+};
 
-a()
+a();
