@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "target": "esnext",                          
+    "module": "commonjs",                     
+    "allowJs": true,                       
+    "sourceMap": true,                 
+    "outDir": "./dist",    
+    "baseUrl": ".",
+    "removeComments": true,                
+    "strict": true,                           
+    "typeRoots": [
+      "./node_modules/@types",
+      "./src/@types"
+    ],                       
+    "esModuleInterop": true,                  
+    "resolveJsonModule": true,
+    "experimentalDecorators": true,        
+    "emitDecoratorMetadata": true,         
+    "skipLibCheck": true,                     
+    "forceConsistentCasingInFileNames": true,
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    }
+  },
+  "include": [
+    "src/**/*.ts",
+    "tests/**/*.ts",
+    "types/**/*.d.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
