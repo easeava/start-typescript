@@ -1,4 +1,5 @@
 import net from "net";
+import { demo } from "@/util";
 
 net.createServer().listen(3000);
 
@@ -9,3 +10,5 @@ const a = () => {
 a();
 
 console.log(a);
+
+demo();
