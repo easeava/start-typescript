@@ -1,14 +1,15 @@
 {
 	"compilerOptions": {
 		"target": "esnext",
-		"module": "commonjs",
+		"module": "esnext",
+		"moduleResolution": "node",
 		"allowJs": true,
 		"sourceMap": true,
 		"outDir": "./dist",
 		"baseUrl": ".",
 		"removeComments": true,
 		"strict": true,
-		"typeRoots": ["./node_modules/@types", "./src/@types"],
+		"typeRoots": ["./node_modules/@types", "./types"],
 		"esModuleInterop": true,
 		"resolveJsonModule": true,
 		"experimentalDecorators": true,
